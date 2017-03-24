@@ -1,7 +1,11 @@
-arduino-json-rpc
+arduino-json-rpc-server
 ================
 
-Simple JSON-RPC implementation for Arduino over serial line. 
-Useful for controlling Arduino from another PC, Single Board Computer (e.g. Beaglebone) or over RF communication 
+A simple multi client TCP (Wifi) based Json RPC server, built using ArduinoJson and based on
+on [arduino-json-rpc](https://github.com/cloud-rocket/arduino-json-rpc)
 
-Read more: http://www.cloud-rocket.com/2014/03/serial-json-rpc-server-arduino/
+### Usage ###
+
+1. Add to Arduino libraries
+2. Copy example
+3. Declare and Register your RPC methods
